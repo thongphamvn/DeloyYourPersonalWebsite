@@ -1,0 +1,111 @@
+body {
+  background-color: #fff;
+  background-image: linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  height: 100vh;
+  position: relative;
+  top: -25vh;
+}
+
+.bd1 {
+  display: flex;
+  justify-content: center;
+}
+
+.main-body {
+  width: 750px;
+  border: 2px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-body-left {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: "La Belle Aurore", cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(83, 63, 40);
+}
+
+.bio {
+  font-family: "La Belle Aurore", cursive;
+  color: rgb(83, 63, 40);
+}
+
+.main-body-right {
+  width: 600px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.github-logo {
+  width: 30px;
+  height: auto;
+}
+
+.gmail-logo {
+  width: 30px;
+  height: auto;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.text {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 0.9rem;
+  color: rgb(83, 63, 40);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.github-link {
+  color: rgb(83, 63, 40);
+  text-decoration: none;
+}
+
+.main-body-left-bottom {
+  border-top: 1px solid grey;
+  padding-top: 7px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.github {
+  margin-right: 20px;
+  display: flex;
+}
+
+.gmail {
+  display: flex;
+}
